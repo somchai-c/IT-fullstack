@@ -1,0 +1,30 @@
+{
+  "name": "it-fullstack",
+  "version": "1.0.0",
+  "description": "study fullstack",
+  "homepage": "https://github.com/somchai-c/IT-fullstack#readme",
+  "bugs": {
+    "url": "https://github.com/somchai-c/IT-fullstack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somchai-c/IT-fullstack.git"
+  },
+  "license": "ISC",
+  "author": "Somchai",
+  "type": "commonjs",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write *.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
